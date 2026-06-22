@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "unit-test-aliases",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-sv",
+                "tests/test_aliases.py"
+            ]
+        },
+        {
+            "name": "unit-dataframe-presets-api",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-sv",
+                "tests/test_dataframe_presets_api.py"
+            ]
+        },
+        {
+            "name": "unit-test-presets-api",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-sv",
+                "tests/test_presets_api.py"
+            ]
+        },
+        {
+            "name": "unit-test-validation",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-sv",
+                "tests/test_validation.py"
+            ]
+        }
+    ]
+}
