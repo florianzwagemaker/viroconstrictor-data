@@ -1,0 +1,5 @@
+Sample	Virus	Match-ref	Segmented	Primers	Reference	Features	min-coverage	primer-mismatch-rate
+Sample_1	SARS-CoV-2	FALSE	FALSE	/path/to/sars_cov_2_primers.fasta	/path/to/sars_cov_2_reference.fasta	/path/to/sars_cov_2.gff	50	0.1
+Sample_2	Measles	FALSE	FALSE	/path/to/Measles_primers.fasta	/path/to/measles_reference.fasta	/path/to/measles.gff	30	0.15
+Sample_3	Influenza_A	TRUE	TRUE	/path/to/Influenza-A_primers.fasta	/path/to/Influenza-A_reference.fasta	NONE	30	0.1
+Sample_4	HPV	TRUE	FALSE	NONE	/path/to/HPV_reference.fasta	NONE	10	0.1
